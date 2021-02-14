@@ -71,12 +71,60 @@ def WriteInductive(type, mode):
             #b_e = b_e + 1
     print('extracted ' + type + '_'+mode +' lines '+ str(len(output_lines)))
 
+def WriteSemiInductiveHeadTailBased(type, mode):
+    output_lines = []
+    f1 = open('fb15k/'+type+'/'+mode+'.txt', 'r')
+    f2 = open('fb15k/fixedDS/Semi-Inductive-HeadOrTailBased/'+type+'/'+mode+'.txt', 'w')
+    all_lines = f1.readlines()
+    print('total '+type +'_'+ mode + ' lines ' +str(len(all_lines)))
+    all_lines = [line.split() for line in all_lines]
+    for line in all_lines:
+        #entities exiting in train_entities
+        #relation exsiting in train_relations
+        tempL = line[0] + '\t' + line[1] + '\t' + line[2] + '\n'
+        #either the head should not appear in the train_entities or the tail
+        #tail exist
+        tailExist =  line[0] not in train_entitites and line[2].rstrip() in train_entitites   
+        #head exist
+        headExist =  line[0] in train_entitites and line[2].rstrip() not in train_entitites   
+        
+        if ((tailExist or headExist) and line[1] in train_relations):
+            if tempL not in train_lines:
+                f2.write(tempL)
+                output_lines.append(tempL)
+            else:
+                print(tempL)
+    print('extracted ' + type + '_'+mode +' lines '+ str(len(output_lines)))
 
-types = ['Symmetry/People', 'inverse', 'AntiSymmetry', 'Inference']
+def WriteSemiInductiveCountBased(type, mode):
+    output_lines = []
+    #read all fully-inductive for this dataset
+    ffInductive = open('fb15k/fixedDS/Inductive/'+type+'/'+mode+'.txt', 'r')
+    ind_lines = ffInductive.readlines()
+    #ind_lines = [line.split() for line in ind_lines]
+    ffTransductive = open('fb15k/fixedDS/Transductive/'+type+'/'+mode+'.txt', 'r')
+    tr_lines = ffTransductive.readlines()
+    #tr_lines = [line.split() for line in tr_lines]
+    print(len(ind_lines))
+    #extend the ind_lines by adding all tr_lines so it becomes a list with half transductive half inductive 
+    ind_lines.extend(tr_lines[0:len(ind_lines)])
+    print(len(ind_lines))
+    f2 = open('fb15k/fixedDS/Semi-Inductive-CountBased/'+type+'/'+mode+'.txt', 'w') 
+    for line in ind_lines:
+        f2.write(line)
+
+    
+
+#'Symmetry/People','inverse','AntiSymmetry'
+types = ['Symmetry/People','inverse','AntiSymmetry', 'Inference']
 for i in types:
     print(i)
     readTrain(i)
     #WriteTransductive(i, 'valid')
     #WriteTransductive(i, 'test')
-    WriteInductive(i, 'valid')
-    WriteInductive(i, 'test')
+    #WriteInductive(i, 'valid')
+    #WriteInductive(i, 'test')
+    #WriteSemiInductiveHeadTailBased(i , 'valid')
+    #WriteSemiInductiveHeadTailBased(i , 'test')
+    WriteSemiInductiveCountBased(i, 'valid')
+    WriteSemiInductiveCountBased(i, 'test')
