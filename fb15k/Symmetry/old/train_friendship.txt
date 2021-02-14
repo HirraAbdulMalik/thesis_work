@@ -1,0 +1,118 @@
+Stephen Colbert /base/popstra/celebrity/friendship./base/popstra/friendship/participant Steve Carell
+Dustin Hoffman /base/popstra/celebrity/friendship./base/popstra/friendship/participant Liev Schreiber
+Lauren Holly /base/popstra/celebrity/friendship./base/popstra/friendship/participant Amanda Peet
+Joaquin Phoenix /base/popstra/celebrity/friendship./base/popstra/friendship/participant Ben Stiller
+Joseph Gordon-Levitt /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend Evan Rachel Wood
+Pink (singer) /base/popstra/celebrity/friendship./base/popstra/friendship/participant Bai Ling
+Lara Flynn Boyle /base/popstra/celebrity/friendship./base/popstra/friendship/participant Chris Isaak
+Lucy Liu /base/popstra/celebrity/friendship./base/popstra/friendship/participant Anne Heche
+Heath Ledger /base/popstra/celebrity/friendship./base/popstra/friendship/participant Johnny Depp
+George Clooney /base/popstra/celebrity/friendship./base/popstra/friendship/participant Grant Heslov
+Quentin Tarantino /base/popstra/celebrity/friendship./base/popstra/friendship/participant Courtney Love
+Pamela Anderson /base/popstra/celebrity/friendship./base/popstra/friendship/participant Tommy Lee
+Joey Fatone /base/popstra/celebrity/friendship./base/popstra/friendship/participant Nick Lachey
+Ewan McGregor /base/popstra/celebrity/friendship./base/popstra/friendship/participant Colin Farrell
+Cary Grant /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend Laraine Day
+Jenna Fischer /base/popstra/celebrity/friendship./base/popstra/friendship/participant Angela Kinsey
+Robert Pattinson /base/popstra/celebrity/friendship./base/popstra/friendship/participant Daniel Radcliffe
+Lindsay Lohan /base/popstra/celebrity/friendship./base/popstra/friendship/participant Britney Spears
+David Letterman /base/popstra/celebrity/friendship./base/popstra/friendship/participant Johnny Carson
+Demi Lovato /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend Taylor Swift
+Mark Burnett /base/popstra/celebrity/friendship./base/popstra/friendship/participant Donald Trump
+Anthony Edwards /base/popstra/celebrity/friendship./base/popstra/friendship/participant Natalie Portman
+Drew Barrymore /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend Cameron Diaz
+Elizabeth Taylor /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend Michael Jackson
+Busta Rhymes /base/popstra/celebrity/friendship./base/popstra/friendship/participant Mariah Carey
+Regis Philbin /base/popstra/celebrity/friendship./base/popstra/friendship/participant David Letterman
+Billy Boyd (actor) /base/popstra/celebrity/friendship./base/popstra/friendship/participant Dominic Monaghan
+George Clooney /base/popstra/celebrity/friendship./base/popstra/friendship/participant Guy Ritchie
+Chuck Norris /base/popstra/celebrity/friendship./base/popstra/friendship/participant George W. Bush
+Kate Moss /base/popstra/celebrity/friendship./base/popstra/friendship/participant Naomi Campbell
+Bow Wow /base/popstra/celebrity/friendship./base/popstra/friendship/participant Jermaine Dupri
+Woody Harrelson /base/popstra/celebrity/friendship./base/popstra/friendship/participant Matthew McConaughey
+Jake Gyllenhaal /base/popstra/celebrity/friendship./base/popstra/friendship/participant Heath Ledger
+Sarah Michelle Gellar /base/popstra/celebrity/friendship./base/popstra/friendship/participant Ryan Phillippe
+Mark Wahlberg /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend Leonardo DiCaprio
+Steve Martin /base/popstra/celebrity/friendship./base/popstra/friendship/participant Diane Keaton
+Tom Cruise /base/popstra/celebrity/friendship./base/popstra/friendship/participant Steven Spielberg
+Selena Gomez /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend Taylor Swift
+Rhys Ifans /base/popstra/celebrity/friendship./base/popstra/friendship/participant Kate Moss
+Fergie (singer) /base/popstra/celebrity/friendship./base/popstra/friendship/participant Ashlee Simpson
+Elizabeth Hurley /base/popstra/celebrity/friendship./base/popstra/friendship/participant David Beckham
+Conan O'Brien /base/popstra/celebrity/friendship./base/popstra/friendship/participant Jay Leno
+Lauren Bacall /base/popstra/celebrity/friendship./base/popstra/friendship/participant Katharine Hepburn
+Ben Affleck /base/popstra/celebrity/friendship./base/popstra/friendship/participant Jimmy Kimmel
+Brad Pitt /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend George Clooney
+Kirsten Dunst /base/popstra/celebrity/friendship./base/popstra/friendship/participant Ryan Gosling
+John Krasinski /base/popstra/celebrity/friendship./base/popstra/friendship/participant Ben Gibbard
+Peter Weller /base/popstra/celebrity/friendship./base/popstra/friendship/participant Jeff Goldblum
+Daryl Hannah /base/popstra/celebrity/friendship./base/popstra/friendship/participant Joan Baez
+Chris Brown (American entertainer) /base/popstra/celebrity/friendship./base/popstra/friendship/participant Omarion
+Alicia Silverstone /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend Alanis Morissette
+Paul Walker /base/popstra/celebrity/friendship./base/popstra/friendship/participant Tyrese Gibson
+William Shatner /base/popstra/celebrity/friendship./base/popstra/friendship/participant Sandra Bullock
+Hugh Jackman /base/popstra/celebrity/friendship./base/popstra/friendship/participant Nicole Kidman
+Sarah Michelle Gellar /base/popstra/celebrity/friendship./base/popstra/friendship/participant Holly Marie Combs
+Hugh Laurie /base/popstra/celebrity/friendship./base/popstra/friendship/participant Emma Thompson
+Anthony Edwards /base/popstra/celebrity/friendship./base/popstra/friendship/participant James Garner
+Al Gore /base/popstra/celebrity/friendship./base/popstra/friendship/participant Barack Obama
+Laraine Day /base/popstra/celebrity/friendship./base/popstra/friendship/participant John Wayne
+Sean Combs /base/popstra/celebrity/friendship./base/popstra/friendship/participant Ashton Kutcher
+Oprah Winfrey /base/popstra/celebrity/friendship./base/popstra/friendship/participant Kevin Costner
+Ashley Tisdale /base/popstra/celebrity/friendship./base/popstra/friendship/participant Kaley Cuoco
+Dustin Hoffman /base/popstra/celebrity/friendship./base/popstra/friendship/participant Carole Bayer Sager
+Kate Moss /base/popstra/celebrity/friendship./base/popstra/friendship/participant Lily Allen
+Al Gore /base/popstra/celebrity/friendship./base/popstra/friendship/participant Tommy Lee Jones
+Jeff Goldblum /base/popstra/celebrity/friendship./base/popstra/friendship/participant Peter Weller
+Bradley Cooper /base/popstra/celebrity/friendship./base/popstra/friendship/participant Cameron Diaz
+Laura Innes /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend Linda Cardellini
+Jessica Simpson /base/popstra/celebrity/friendship./base/popstra/friendship/participant Britney Spears
+Steve Carell /base/popstra/celebrity/friendship./base/popstra/friendship/participant Will Ferrell
+Dennis Rodman /base/popstra/celebrity/friendship./base/popstra/friendship/participant Clint Black
+Eugene Levy /base/popstra/celebrity/friendship./base/popstra/friendship/participant Steve Martin
+Helena Bonham Carter /base/popstra/celebrity/friendship./base/popstra/friendship/participant Johnny Depp
+Michelle Branch /base/popstra/celebrity/friendship./base/popstra/friendship/participant Kelly Osbourne
+Courteney Cox /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend Jennifer Aniston
+Myrna Loy /base/popstra/celebrity/friendship./base/popstra/friendship/participant Joan Crawford
+Sean Combs /base/popstra/celebrity/friendship./base/popstra/friendship/participant Busta Rhymes
+Lil Wayne /base/popstra/celebrity/friendship./base/popstra/friendship/participant T-Pain
+Leonardo DiCaprio /base/popstra/celebrity/friendship./base/popstra/friendship/participant Kate Winslet
+Nicole Kidman /base/popstra/celebrity/friendship./base/popstra/friendship/participant Hugh Jackman
+Zooey Deschanel /base/popstra/celebrity/friendship./base/popstra/friendship/participant Jason Schwartzman
+Drew Barrymore /base/popstra/celebrity/friendship./base/popstra/friendship/participant 50 Cent
+Spike Lee /base/popstra/celebrity/friendship./base/popstra/friendship/participant Brad Pitt
+Will Smith /base/popstra/celebrity/friendship./base/popstra/friendship/participant Tom Cruise
+Demi Moore /base/popstra/celebrity/friendship./base/popstra/friendship/participant Sting (musician)
+Britney Spears /base/popstra/celebrity/friendship./base/popstra/friendship/participant Paris Hilton
+Mischa Barton /base/popstra/celebrity/friendship./base/popstra/friendship/participant Ashley Tisdale
+Jay-Z /base/popstra/celebrity/friendship./base/popstra/friendship/participant Mariah Carey
+Zac Efron /base/popstra/celebrity/friendship./base/popstra/friendship/participant Corbin Bleu
+Quincy Jones /base/popstra/celebrity/friendship./base/popstra/friendship/participant Michael Jackson
+Jennifer Lopez /base/popstra/celebrity/friendship./base/popstra/friendship/participant Katie Holmes
+Cameron Diaz /base/popstra/celebrity/friendship./base/popstra/friendship/participant Sean Combs
+Adam Sandler /base/popstra/celebrity/friendship./base/popstra/friendship/participant David Duchovny
+Christina Applegate /base/popstra/celebrity/friendship./base/popstra/friendship/participant Gwyneth Paltrow
+The Beatles /base/popstra/celebrity/friendship./base/popstra/friendship/participant Peter Sellers
+Alicia Keys /base/popstra/celebrity/friendship./base/popstra/friendship/participant Bono
+Gwyneth Paltrow /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend Christina Applegate
+Matt LeBlanc /base/popstra/celebrity/friendship./base/popstra/friendship/participant Lou Diamond Phillips
+Lucille Ball /base/popstra/celebrity/friendship./base/popstra/friendship/participant Bob Hope
+Usher (entertainer) /base/popstra/celebrity/friendship./base/popstra/friendship/participant Pharrell Williams
+Madonna (entertainer) /base/popstra/celebrity/friendship./base/popstra/friendship/participant Britney Spears
+Brad Pitt /base/popstra/celebrity/friendship./base/popstra/friendship/participant Angelina Jolie
+Kiefer Sutherland /base/popstra/celebrity/friendship./base/popstra/friendship/participant Gary Oldman
+Missy Elliott /base/popstra/celebrity/friendship./base/popstra/friendship/participant Ciara
+Cesar Romero /base/popstra/celebrity/friendship./base/popstra/friendship/participant Joan Crawford
+George C. Scott /base/popstra/celebrity/friendship./base/popstra/friendship/participant Colleen Dewhurst
+Britney Spears /base/popstra/celebrity/friendship./base/popstra/friendship/participant Amy Winehouse
+Demi Moore /base/popstra/celebrity/friendship./base/popstra/friendship/participant Nastassja Kinski
+Jerry Bruckheimer /base/popstra/celebrity/friendship./base/popstra/friendship/participant Johnny Depp
+Taylor Lautner /base/popstra/celebrity/friendship./base/popstra/friendship/participant Alyson Stoner
+David Schwimmer /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend Jennifer Aniston
+Britney Spears /base/popstra/celebrity/friendship./base/popstra/friendship/participant Jennifer Lopez
+Cynthia Nixon /base/popstra/celebrity/friendship./base/popstra/friendship/participant Sarah Jessica Parker
+Kirk Douglas /base/popstra/celebrity/friendship./base/popstra/friendship/participant Laraine Day
+Hilary Duff /base/popstra/celebrity/friendship./base/popstra/friendship/participant Joel Madden
+Kelly Osbourne /base/popstra/celebrity/friendship./base/popstra/friendship/participant Mandy Moore
+Simon Cowell /base/popstra/celebrity/friendship./base/popstra/friendship/participant Ryan Seacrest
+Hugh Jackman /base/popstra/celebrity/friendship./base/popstra/friendship/participant Liev Schreiber

@@ -1,0 +1,12 @@
+_hypernym,_hyponym,2448,0,1.0
+_member_holonym,_member_meronym,324,0,1.0
+_synset_domain_region_of,_member_of_domain_region,16,0,1.0
+_member_meronym,_member_holonym,324,0,1.0
+_hyponym,_hypernym,2754,0,1.0
+_synset_domain_topic_of,_member_of_domain_topic,36,0,1.0
+_member_of_domain_region,_synset_domain_region_of,16,0,1.0
+_instance_hypernym,_instance_hyponym,42,0,1.0
+_has_part,_part_of,64,0,1.0
+_instance_hyponym,_instance_hypernym,56,0,1.0
+_member_of_domain_topic,_synset_domain_topic_of,36,0,1.0
+_part_of,_has_part,64,0,1.0

@@ -1,0 +1,8 @@
+/m/0chghy	/base/aareas/schema/administrative_area/administrative_children	/m/05fly
+/m/02_286	/base/aareas/schema/administrative_area/administrative_children	/m/0cc56
+/m/0gyh	/base/aareas/schema/administrative_area/administrative_children	/m/0kcnq
+/m/0846v	/base/aareas/schema/administrative_area/administrative_children	/m/0mk7z
+/m/0chghy	/location/country/administrative_divisions	/m/05fly
+/m/0f8l9c	/location/country/administrative_divisions	/m/0cp6w
+/m/07ssc	/location/country/administrative_divisions	/m/022_6
+/m/03_3d	/location/country/administrative_divisions	/m/018jk2

@@ -1,0 +1,7 @@
+6
+/people/marriage_union_type/unions_of_this_type./people/marriage/spouse	0
+/people/person/spouse_s./people/marriage/spouse	1
+/people/person/spouse_s./people/marriage/type_of_union	2
+/people/person/spouse_s./people/marriage/location_of_ceremony	3
+/people/marriage_union_type/unions_of_this_type./people/marriage/location_of_ceremony	4
+/fictional_universe/fictional_character/married_to./fictional_universe/marriage_of_fictional_characters/spouses	5
