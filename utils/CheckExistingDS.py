@@ -1,8 +1,8 @@
 train_entitites = []
 train_relations = []
 train_lines = []
-def readTrain(type):
-    f1=open('fb15k/'+type+'/train.txt', 'r')
+def readTrain(dataset, type):
+    f1=open(dataset + '/'+type+'/train.txt', 'r')
     train_lines.clear()
     train_relations.clear()
     train_entitites.clear()
@@ -22,12 +22,12 @@ def readTrain(type):
     print('train_relations', len(train_relations))
     print('train_entities', len(train_entitites))
 
-def WriteTransductive(type, mode):
+def WriteTransductive(dataset, type, mode):
     #b_e = 0
     #print(train_lines[0:4])
     output_lines = []
-    f1 = open('fb15k/'+type+'/'+mode+'.txt', 'r')
-    #f2 = open('fb15k/fixedDS/'+type+'/'+mode+'.txt', 'w')
+    f1 = open(dataset + '/'+type+'/'+mode+'.txt', 'r')
+    f2 = open(dataset + '/fixedDS/Transductive/'+type+'/'+mode+'.txt', 'w')
     all_lines = f1.readlines()
     print('total '+type +'_'+ mode + ' lines ' +str(len(all_lines)))
     all_lines = [line.split() for line in all_lines]
@@ -38,7 +38,7 @@ def WriteTransductive(type, mode):
         if (line[0] in train_entitites and line[2].rstrip() in train_entitites and line[1] in train_relations):
             #the whole tuple should not appear in train 
             if tempL not in train_lines:
-                #f2.write(tempL)
+                f2.write(tempL)
                 output_lines.append(tempL)
             else:
                 print(tempL)
@@ -47,12 +47,12 @@ def WriteTransductive(type, mode):
     print('extracted ' + type + '_'+mode +' lines '+ str(len(output_lines)))
     #print('b_e', b_e)
 
-def WriteInductive(type, mode):
+def WriteInductive(dataset, type, mode):
     #b_e = 0
     #print(train_lines[0:4])
     output_lines = []
-    f1 = open('fb15k/'+type+'/'+mode+'.txt', 'r')
-    f2 = open('fb15k/fixedDS/Inductive/'+type+'/'+mode+'.txt', 'w')
+    f1 = open(dataset + '/'+type+'/'+mode+'.txt', 'r')
+    f2 = open(dataset + '/fixedDS/Inductive/'+type+'/'+mode+'.txt', 'w')
     all_lines = f1.readlines()
     print('total '+type +'_'+ mode + ' lines ' +str(len(all_lines)))
     all_lines = [line.split() for line in all_lines]
@@ -71,10 +71,10 @@ def WriteInductive(type, mode):
             #b_e = b_e + 1
     print('extracted ' + type + '_'+mode +' lines '+ str(len(output_lines)))
 
-def WriteSemiInductiveHeadTailBased(type, mode):
+def WriteSemiInductiveHeadTailBased(dataset, type, mode):
     output_lines = []
-    f1 = open('fb15k/'+type+'/'+mode+'.txt', 'r')
-    f2 = open('fb15k/fixedDS/Semi-Inductive-HeadOrTailBased/'+type+'/'+mode+'.txt', 'w')
+    f1 = open(dataset + '/'+type+'/'+mode+'.txt', 'r')
+    f2 = open(dataset + '/fixedDS/Semi-Inductive-HeadOrTailBased/'+type+'/'+mode+'.txt', 'w')
     all_lines = f1.readlines()
     print('total '+type +'_'+ mode + ' lines ' +str(len(all_lines)))
     all_lines = [line.split() for line in all_lines]
@@ -96,35 +96,37 @@ def WriteSemiInductiveHeadTailBased(type, mode):
                 print(tempL)
     print('extracted ' + type + '_'+mode +' lines '+ str(len(output_lines)))
 
-def WriteSemiInductiveCountBased(type, mode):
+def WriteSemiInductiveCountBased(dataset, type, mode):
     output_lines = []
     #read all fully-inductive for this dataset
-    ffInductive = open('fb15k/fixedDS/Inductive/'+type+'/'+mode+'.txt', 'r')
+    ffInductive = open(dataset + '/fixedDS/Inductive/'+type+'/'+mode+'.txt', 'r')
     ind_lines = ffInductive.readlines()
     #ind_lines = [line.split() for line in ind_lines]
-    ffTransductive = open('fb15k/fixedDS/Transductive/'+type+'/'+mode+'.txt', 'r')
+    ffTransductive = open(dataset + '/fixedDS/Transductive/'+type+'/'+mode+'.txt', 'r')
     tr_lines = ffTransductive.readlines()
     #tr_lines = [line.split() for line in tr_lines]
     print(len(ind_lines))
     #extend the ind_lines by adding all tr_lines so it becomes a list with half transductive half inductive 
     ind_lines.extend(tr_lines[0:len(ind_lines)])
     print(len(ind_lines))
-    f2 = open('fb15k/fixedDS/Semi-Inductive-CountBased/'+type+'/'+mode+'.txt', 'w') 
+    f2 = open(dataset +'/fixedDS/Semi-Inductive-CountBased/'+type+'/'+mode+'.txt', 'w') 
     for line in ind_lines:
         f2.write(line)
 
     
 
-#'Symmetry/People','inverse','AntiSymmetry'
-types = ['Symmetry/People','inverse','AntiSymmetry', 'Inference']
+#FB15 - 'Symmetry/People','inverse','AntiSymmetry', 'Inference'
+
+types = ['Symmetry','inverse','AntiSymmetry', 'Inference']
+dataset = 'wn18'
 for i in types:
-    print(i)
-    readTrain(i)
-    #WriteTransductive(i, 'valid')
-    #WriteTransductive(i, 'test')
-    #WriteInductive(i, 'valid')
-    #WriteInductive(i, 'test')
-    #WriteSemiInductiveHeadTailBased(i , 'valid')
-    #WriteSemiInductiveHeadTailBased(i , 'test')
-    WriteSemiInductiveCountBased(i, 'valid')
-    WriteSemiInductiveCountBased(i, 'test')
+    print(dataset +' - ' + i)
+    readTrain(dataset, i)
+    #WriteTransductive(dataset, i, 'valid')
+    #WriteTransductive(dataset, i, 'test')
+    WriteInductive(dataset,i, 'valid')
+    WriteInductive(dataset,i, 'test')
+    WriteSemiInductiveHeadTailBased(dataset,i , 'valid')
+    WriteSemiInductiveHeadTailBased(dataset,i , 'test')
+    WriteSemiInductiveCountBased(dataset,i, 'valid')
+    WriteSemiInductiveCountBased(dataset,i, 'test')
