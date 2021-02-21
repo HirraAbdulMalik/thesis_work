@@ -113,20 +113,31 @@ def WriteSemiInductiveCountBased(dataset, type, mode):
     for line in ind_lines:
         f2.write(line)
 
+def checkInductiveness(dataset, type, mode):
+    t = 'Inductive'
+    f1 = open(dataset + '/fixedDS/'+t+'/'+type+'/'+mode+'.txt', 'r')
+    all_lines = f1.readlines()
+    print('total '+type +'_'+ mode + ' lines ' +str(len(all_lines)))
+    all_lines = [line.split() for line in all_lines]
+    for line in all_lines:
+        if line[0] in train_entitites or line[2] in train_entitites:
+            print(line)
     
 
 #FB15 - 'Symmetry/People','inverse','AntiSymmetry', 'Inference'
 
-types = ['Symmetry','inverse','AntiSymmetry', 'Inference']
-dataset = 'wn18'
+types = ['Symmetry/People','inverse','AntiSymmetry', 'Inference']
+dataset = 'fb15k'
 for i in types:
     print(dataset +' - ' + i)
     readTrain(dataset, i)
     #WriteTransductive(dataset, i, 'valid')
     #WriteTransductive(dataset, i, 'test')
-    WriteInductive(dataset,i, 'valid')
-    WriteInductive(dataset,i, 'test')
-    WriteSemiInductiveHeadTailBased(dataset,i , 'valid')
-    WriteSemiInductiveHeadTailBased(dataset,i , 'test')
-    WriteSemiInductiveCountBased(dataset,i, 'valid')
-    WriteSemiInductiveCountBased(dataset,i, 'test')
+    #WriteInductive(dataset,i, 'valid')
+    #WriteInductive(dataset,i, 'test')
+    checkInductiveness(dataset, i , 'valid')
+    checkInductiveness(dataset, i , 'test')
+    #WriteSemiInductiveHeadTailBased(dataset,i , 'valid')
+    #WriteSemiInductiveHeadTailBased(dataset,i , 'test')
+    #WriteSemiInductiveCountBased(dataset,i, 'valid')
+    #WriteSemiInductiveCountBased(dataset,i, 'test')
