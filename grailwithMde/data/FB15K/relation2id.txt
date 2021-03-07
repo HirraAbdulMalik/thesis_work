@@ -1,4 +1,0 @@
-3
-/people/person/spouse_s./people/marriage/spouse	0
-/people/person/sibling_s./people/sibling_relationship/sibling	1
-/base/popstra/celebrity/friendship./base/popstra/friendship/participant	2

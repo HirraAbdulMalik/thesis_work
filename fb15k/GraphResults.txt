@@ -1,0 +1,216 @@
+
+Transductive
+
+Symmetry/People
+train
+valid
+test
+total unique entities 1044
+total unique relations 3
+nodes in graph 1044
+edges in graph 2508
+average degree of graph 4.0
+dimension of graph 2508
+strongly connected components 142
+
+
+inverse
+train
+valid
+test
+total unique entities 8005
+total unique relations 626
+nodes in graph 8005
+edges in graph 26457
+average degree of graph 6.0
+dimension of graph 26457
+strongly connected components 224
+
+
+AntiSymmetry
+train
+valid
+test
+total unique entities 8005
+total unique relations 529
+nodes in graph 8005
+edges in graph 13277
+average degree of graph 3.0
+dimension of graph 13277
+strongly connected components 5050
+
+
+Inference
+train
+valid
+test
+total unique entities 1337
+total unique relations 102
+nodes in graph 1337
+edges in graph 1072
+average degree of graph 1.0
+dimension of graph 1072
+strongly connected components 1313
+
+
+Inductive
+
+Symmetry/People
+train
+valid
+test
+total unique entities 1062
+total unique relations 3
+nodes in graph 1062
+edges in graph 2066
+average degree of graph 3.0
+dimension of graph 2066
+strongly connected components 328
+
+
+inverse
+train
+valid
+test
+total unique entities 8614
+total unique relations 626
+nodes in graph 8614
+edges in graph 20256
+average degree of graph 4.0
+dimension of graph 20256
+strongly connected components 778
+
+
+AntiSymmetry
+train
+valid
+test
+total unique entities 8539
+total unique relations 529
+nodes in graph 8539
+edges in graph 10102
+average degree of graph 2.0
+dimension of graph 10102
+strongly connected components 7247
+
+
+Inference
+train
+valid
+test
+total unique entities 1413
+total unique relations 102
+nodes in graph 1413
+edges in graph 1065
+average degree of graph 1.0
+dimension of graph 1065
+strongly connected components 1397
+
+
+Semi-Inductive-CountBased
+
+Symmetry/People
+train
+valid
+test
+total unique entities 1062
+total unique relations 3
+nodes in graph 1062
+edges in graph 2084
+average degree of graph 3.0
+dimension of graph 2084
+strongly connected components 319
+
+
+inverse
+train
+valid
+test
+total unique entities 8614
+total unique relations 626
+nodes in graph 8614
+edges in graph 20907
+average degree of graph 4.0
+dimension of graph 20907
+strongly connected components 740
+
+
+AntiSymmetry
+train
+valid
+test
+total unique entities 8539
+total unique relations 529
+nodes in graph 8539
+edges in graph 10407
+average degree of graph 2.0
+dimension of graph 10407
+strongly connected components 7117
+
+
+Inference
+train
+valid
+test
+total unique entities 1413
+total unique relations 102
+nodes in graph 1413
+edges in graph 1110
+average degree of graph 1.0
+dimension of graph 1110
+strongly connected components 1389
+
+
+Semi-Inductive-HeadOrTailBased
+
+Symmetry/People
+train
+valid
+test
+total unique entities 1053
+total unique relations 3
+nodes in graph 1053
+edges in graph 2066
+average degree of graph 3.0
+dimension of graph 2066
+strongly connected components 319
+
+
+inverse
+train
+valid
+test
+total unique entities 9643
+total unique relations 626
+nodes in graph 9643
+edges in graph 23799
+average degree of graph 4.0
+dimension of graph 23799
+strongly connected components 456
+
+
+AntiSymmetry
+train
+valid
+test
+total unique entities 9605
+total unique relations 529
+nodes in graph 9605
+edges in graph 11870
+average degree of graph 2.0
+dimension of graph 11870
+strongly connected components 8122
+
+
+Inference
+train
+valid
+test
+total unique entities 1423
+total unique relations 102
+nodes in graph 1423
+edges in graph 1110
+average degree of graph 1.0
+dimension of graph 1110
+strongly connected components 1407
+
