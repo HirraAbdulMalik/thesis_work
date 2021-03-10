@@ -1,0 +1,17 @@
+datasetVariant,type,total_Entities,total_Relations,NodesInGraph,edgesInGraph,AvgDegreeOfGraph,dimOfGraph,stronglyConnectedComponents
+Transductive,Symmetry,16975,3,16975,33268,3.0,33268,2600
+Transductive,inverse,12748,18,12748,18117,2.0,18117,3729
+Transductive,AntiSymmetry,12748,18,12748,9058,1.0,9058,12732
+Transductive,Inference,11549,14,11549,17371,3.0,17371,2931
+Inductive,Symmetry,16991,3,16991,31110,3.0,31110,3977
+Inductive,inverse,13130,18,13130,18287,2.0,18287,4019
+Inductive,AntiSymmetry,13129,18,13129,9143,1.0,9143,13117
+Inductive,Inference,13213,14,13213,18327,2.0,18327,4080
+Semi-Inductive-CountBased,Symmetry,16991,3,16991,31126,3.0,31126,3962
+Semi-Inductive-CountBased,inverse,13130,18,13130,18502,2.0,18502,3919
+Semi-Inductive-CountBased,AntiSymmetry,13129,18,13129,9250,1.0,9250,13113
+Semi-Inductive-CountBased,Inference,13213,14,13213,19151,2.0,19151,3705
+Semi-Inductive-HeadOrTailBased,Symmetry,17012,3,17012,31159,3.0,31159,3977
+Semi-Inductive-HeadOrTailBased,inverse,13121,18,13121,18652,2.0,18652,3828
+Semi-Inductive-HeadOrTailBased,AntiSymmetry,13121,18,13121,9326,1.0,9326,13109
+Semi-Inductive-HeadOrTailBased,Inference,13362,14,13362,20217,3.0,20217,3285
